@@ -97,40 +97,84 @@ namespace ConversorRomanos.ClassLibrary
 
         private String ValidarString(String romano)
         {
-            if (romano.Contains("ĪX̄"))
+            while (romano.Contains("M̄") || romano.Contains("D̄") || romano.Contains("C̄") ||
+                   romano.Contains("L̄") || romano.Contains("X̄") || romano.Contains("V̄"))
             {
-                romano = romano.Substring(3);
-                inteiro += 9000;
-            }
-            else if (romano.Contains("X̄"))
-            {
-                romano = romano.Substring(2);
-                inteiro += 10000;
-            }
-            else if (romano.Contains("V̄ĪĪĪ"))
-            {
-                romano = romano.Substring(5);
-                inteiro += 8000;
-            }
-            else if (romano.Contains("V̄ĪĪ"))
-            {
-                romano = romano.Substring(4);
-                inteiro += 7000;
-            }
-            else if (romano.Contains("V̄Ī"))
-            {
-                romano = romano.Substring(3);
-                inteiro += 6000;
-            }
-            else if (romano.Contains("ĪV̄"))
-            {
-                romano = romano.Substring(3);
-                inteiro += 4000;
-            }
-            else if (romano.Contains("V̄"))
-            {
-                romano = romano.Substring(2);
-                inteiro += 5000;
+                if (romano.Contains("C̄M̄"))
+                {
+                    romano = romano.Substring(4);
+                    inteiro += 900000;
+                }
+                else if (romano.Contains("M̄"))
+                {
+                    romano = romano.Substring(2);
+                    inteiro += 1000000;
+                }
+                else if (romano.Contains("C̄D̄"))
+                {
+                    romano = romano.Substring(4);
+                    inteiro += 400000;
+                }
+                else if (romano.Contains("D̄"))
+                {
+                    romano = romano.Substring(2);
+                    inteiro += 500000;
+                }
+                else if (romano.Contains("X̄C̄"))
+                {
+                    romano = romano.Substring(4);
+                    inteiro += 90000;
+                }
+                else if (romano.Contains("C̄"))
+                {
+                    romano = romano.Substring(2);
+                    inteiro += 100000;
+                }
+                else if (romano.Contains("X̄L̄"))
+                {
+                    romano = romano.Substring(4);
+                    inteiro += 40000;
+                }
+                else if (romano.Contains("L̄"))
+                {
+                    romano = romano.Substring(2);
+                    inteiro += 50000;
+                }
+                else if(romano.Contains("ĪX̄"))
+                {
+                    romano = romano.Substring(3);
+                    inteiro += 9000;
+                }
+                else if (romano.Contains("X̄"))
+                {
+                    romano = romano.Substring(2);
+                    inteiro += 10000;
+                }
+                else if (romano.Contains("V̄ĪĪĪ"))
+                {
+                    romano = romano.Substring(5);
+                    inteiro += 8000;
+                }
+                else if (romano.Contains("V̄ĪĪ"))
+                {
+                    romano = romano.Substring(4);
+                    inteiro += 7000;
+                }
+                else if (romano.Contains("V̄Ī"))
+                {
+                    romano = romano.Substring(3);
+                    inteiro += 6000;
+                }
+                else if (romano.Contains("ĪV̄"))
+                {
+                    romano = romano.Substring(3);
+                    inteiro += 4000;
+                }
+                else if (romano.Contains("V̄"))
+                {
+                    romano = romano.Substring(2);
+                    inteiro += 5000;
+                }
             }
 
             return romano;

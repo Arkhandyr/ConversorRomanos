@@ -127,5 +127,65 @@ namespace ConversorRomanos.Tests
         {
             Assert.AreEqual(10000, romano.ConverterRomanoParaInteiro("X̄"));
         }
+
+        [TestMethod]
+        public void DeveRetornar20000()
+        {
+            Assert.AreEqual(20000, romano.ConverterRomanoParaInteiro("X̄X̄"));
+        }
+
+        [TestMethod]
+        public void DeveRetornar30000()
+        {
+            Assert.AreEqual(30000, romano.ConverterRomanoParaInteiro("X̄X̄X̄"));
+        }
+
+        [TestMethod]
+        public void DeveRetornar40000()
+        {
+            Assert.AreEqual(40000, romano.ConverterRomanoParaInteiro("X̄L̄"));
+        }
+
+        [TestMethod]
+        public void DeveRetornar50000()
+        {
+            Assert.AreEqual(50000, romano.ConverterRomanoParaInteiro("L̄"));
+        }
+
+        [TestMethod]
+        public void DeveRetornar100000()
+        {
+            Assert.AreEqual(100000, romano.ConverterRomanoParaInteiro("C̄"));
+        }
+
+        [TestMethod]
+        public void DeveRetornar150000()
+        {
+            Assert.AreEqual(150000, romano.ConverterRomanoParaInteiro("C̄L̄"));
+        }
+
+        [TestMethod]
+        public void DeveRetornar1000000()
+        {
+            Assert.AreEqual(1000000, romano.ConverterRomanoParaInteiro("M̄"));
+        }
+
+        [TestMethod]
+        public void DeveRetornar1000001()
+        {
+            Assert.AreEqual(1000001, romano.ConverterRomanoParaInteiro("M̄I"));
+        }
+
+        [TestMethod]
+        public void DeveRetornar1110000()
+        {
+            Assert.AreEqual(1110000, romano.ConverterRomanoParaInteiro("M̄C̄X̄"));
+        }
+
+        [TestMethod]
+        public void DeveRetornar5000000()
+        {
+            Assert.AreEqual(5000000, romano.ConverterRomanoParaInteiro("M̄M̄M̄M̄M̄"));
+        }
     }
 }

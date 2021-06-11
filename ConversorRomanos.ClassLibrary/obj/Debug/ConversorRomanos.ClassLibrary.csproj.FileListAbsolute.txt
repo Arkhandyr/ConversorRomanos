@@ -10,3 +10,9 @@ C:\Users\Arkhandyr\source\repos\ConversorRomanos\ConversorRomanos.Tests\Converso
 C:\Users\Arkhandyr\source\repos\ConversorRomanos\ConversorRomanos.Tests\ConversorRomanos.ClassLibrary\obj\Debug\ConversorRomanos.ClassLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Arkhandyr\source\repos\ConversorRomanos\ConversorRomanos.Tests\ConversorRomanos.ClassLibrary\obj\Debug\ConversorRomanos.ClassLibrary.dll
 C:\Users\Arkhandyr\source\repos\ConversorRomanos\ConversorRomanos.Tests\ConversorRomanos.ClassLibrary\obj\Debug\ConversorRomanos.ClassLibrary.pdb
+C:\Users\Arkhandyr\source\repos\ConversorRomanos\ConversorRomanos\ConversorRomanos.ClassLibrary\bin\Debug\ConversorRomanos.ClassLibrary.dll
+C:\Users\Arkhandyr\source\repos\ConversorRomanos\ConversorRomanos\ConversorRomanos.ClassLibrary\bin\Debug\ConversorRomanos.ClassLibrary.pdb
+C:\Users\Arkhandyr\source\repos\ConversorRomanos\ConversorRomanos\ConversorRomanos.ClassLibrary\obj\Debug\ConversorRomanos.ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Arkhandyr\source\repos\ConversorRomanos\ConversorRomanos\ConversorRomanos.ClassLibrary\obj\Debug\ConversorRomanos.ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Arkhandyr\source\repos\ConversorRomanos\ConversorRomanos\ConversorRomanos.ClassLibrary\obj\Debug\ConversorRomanos.ClassLibrary.dll
+C:\Users\Arkhandyr\source\repos\ConversorRomanos\ConversorRomanos\ConversorRomanos.ClassLibrary\obj\Debug\ConversorRomanos.ClassLibrary.pdb
