@@ -111,6 +111,12 @@ namespace ConversorRomanos.Tests
         }
 
         [TestMethod]
+        public void DeveRetornarĪV̄CMXCIX()
+        {
+            Assert.AreEqual("ĪV̄CMXCIX", romano.ConverterInteiroParaRomano(4999));
+        }
+        
+        [TestMethod]
         public void DeveRetornarV̄()
         {
             Assert.AreEqual("V̄", romano.ConverterInteiroParaRomano(5000));
@@ -181,5 +187,6 @@ namespace ConversorRomanos.Tests
         {
             Assert.AreEqual("M̄C̄X̄", romano.ConverterInteiroParaRomano(1110000));
         }
+
     }
 }

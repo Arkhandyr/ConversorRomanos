@@ -177,15 +177,9 @@ namespace ConversorRomanos.Tests
         }
 
         [TestMethod]
-        public void DeveRetornar1000001()
+        public void DeveRetornar1111111()
         {
-            Assert.AreEqual(1000001, romano.ConverterRomanoParaInteiro("M̄I"));
-        }
-
-        [TestMethod]
-        public void DeveRetornar1110000()
-        {
-            Assert.AreEqual(1110000, romano.ConverterRomanoParaInteiro("M̄C̄X̄"));
+            Assert.AreEqual(1111111, romano.ConverterRomanoParaInteiro("M̄C̄X̄MCXI"));
         }
 
         [TestMethod]
