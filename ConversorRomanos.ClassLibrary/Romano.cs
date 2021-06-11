@@ -22,6 +22,14 @@ namespace ConversorRomanos.ClassLibrary
 
         readonly IDictionary<int, string> dicionarioInteiroRomano = new Dictionary<int, String>()
         {
+            { 1000000, "M̄" },
+            { 900000, "C̄M̄" },
+            { 500000, "D̄" },
+            { 400000, "C̄D̄" },
+            { 100000, "C̄"},
+            { 90000, "X̄C̄" },
+            { 50000, "L̄" },
+            { 40000, "X̄L̄" },
             { 10000, "X̄"},
             { 9000, "ĪX̄"},
             { 5000, "V̄" },

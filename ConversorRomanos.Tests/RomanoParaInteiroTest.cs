@@ -165,6 +165,12 @@ namespace ConversorRomanos.Tests
         }
 
         [TestMethod]
+        public void DeveRetornar500000()
+        {
+            Assert.AreEqual(500000, romano.ConverterRomanoParaInteiro("D̄"));
+        }
+
+        [TestMethod]
         public void DeveRetornar1000000()
         {
             Assert.AreEqual(1000000, romano.ConverterRomanoParaInteiro("M̄"));
